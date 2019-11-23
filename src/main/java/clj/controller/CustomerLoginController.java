@@ -12,8 +12,7 @@ import clj.service.LoginService;
 import clj.utils.HttpResponse;
 import clj.vo.TokenVO;
 
-/**
- * 登陆接口bb
+/**jj
  * @author ppd-03020342
  *
  */
