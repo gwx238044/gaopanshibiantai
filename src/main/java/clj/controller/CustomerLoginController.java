@@ -45,7 +45,7 @@ public class CustomerLoginController {
 	 */
 	public HttpResponse<TokenVO> login(@RequestBody LoginDTO loginDTO){
 		if(StringUtils.isBlank(loginDTO.getName())) {
-			return new HttpResponse<>("用户名不能为空");
+			return new HttpResponse<>("用户名不能为空fffff");
 		}
 		if(StringUtils.isBlank(loginDTO.getPassWord())) {
 			return new HttpResponse<>("密码不能为空");
